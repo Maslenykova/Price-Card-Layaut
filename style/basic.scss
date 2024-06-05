@@ -1,0 +1,115 @@
+.price-card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 380px;
+    height: 770px;
+    background-color: rgba(51, 66, 71, 1);
+    margin-right: 18px;
+    box-shadow: 0px 6px 6px 0px;
+
+    &__name {
+        margin: 0;
+        text-align: center;
+        margin-top: 33px;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 43px;
+        color: #FFFFFF;
+    }
+
+    &__status {
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25px;
+        height: 147px;
+        background-color: rgb(220, 63, 69);
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        right:39.5%;
+        top: 12%;
+        transform: rotate(-45deg);
+        writing-mode: vertical-lr;
+   
+    }
+
+    &__description {
+        margin: 0;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    &__price {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #5BB189;
+        height: 105px;
+        width: 380px;
+        margin-top: 33px;
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 67px;
+        color: rgb(255, 255, 255);
+    }
+
+    &__price-description {
+        display: block;
+        width: 327px;
+        height: 36px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 18px;
+        margin: 40px 26.5px 22px 26px;
+    }
+
+    &__image {
+        width: 15px;
+        height: 13px;
+        margin-right: 13px;
+    }
+
+    &__fitures {
+        display: flex;
+        width: 380px;
+        margin-top: 18px;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border: none;
+        width: 155px;
+        height: 40px;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.green-button, .basic-price {
+    background-color: rgb(91, 177, 137);
+}
+
+.blue-button, .business-price {
+    background-color: rgba(58, 107, 165, 1);
+}
+
+.orange-button, .website-price {
+    background-color: rgba(236, 99, 42, 1);
+}

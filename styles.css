@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box; }
+
+.cards {
+  background-color: #141b1c;
+  width: 1440px;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat'; }
+  .cards__image {
+    width: 15px;
+    height: 13px;
+    margin-right: 13px; }
+
+.price-card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  margin-right: 18px;
+  box-shadow: 0px 6px 6px 0px; }
+  .price-card__name {
+    margin: 0;
+    text-align: center;
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: #FFFFFF; }
+  .price-card__status {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 147px;
+    background-color: #dc3f45;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    right: 39.5%;
+    top: 12%;
+    transform: rotate(-45deg);
+    writing-mode: vertical-lr; }
+  .price-card__description {
+    margin: 0;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center; }
+  .price-card__price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5BB189;
+    height: 105px;
+    width: 380px;
+    margin-top: 33px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 67px;
+    color: white; }
+  .price-card__price-description {
+    display: block;
+    width: 327px;
+    height: 36px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    margin: 40px 26.5px 22px 26px; }
+  .price-card__image {
+    width: 15px;
+    height: 13px;
+    margin-right: 13px; }
+  .price-card__fitures {
+    display: flex;
+    width: 380px;
+    margin-top: 18px; }
+  .price-card__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: none;
+    width: 155px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: white; }
+
+.green-button, .basic-price {
+  background-color: #5bb189; }
+
+.blue-button, .business-price {
+  background-color: #3a6ba5; }
+
+.orange-button, .website-price {
+  background-color: #ec632a; }
+
+/*# sourceMappingURL=styles.css.map */
