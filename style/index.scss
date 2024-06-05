@@ -1,16 +1,16 @@
 * {
     box-sizing: border-box;
 }
-.cards{
- background-color: #141b1c;
- width: 1440px;
- height: 1000px;
- display: flex;
- align-items: center;
- justify-content: center;
- font-family: 'Montserrat';
 
-
+.cards {
+    background-color: #141b1c;
+    width: 1440px;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    padding: 130px 115px 132px 115px;
 }
 
 @import "basic.scss";
