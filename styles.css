@@ -6,7 +6,8 @@
   background-color: #141b1c;
   width: 1440px;
   height: 1000px;
-  font-family: 'Montserrat'; }
+  font-family: 'Montserrat';
+  margin: 0; }
   .cards__content {
     margin: 115px 132px 115px 130px;
     display: flex;
@@ -19,6 +20,8 @@
   width: 380px;
   height: 770px;
   background-color: #334247;
+  padding: 0;
+  margin: 0;
   margin-right: 18px;
   box-shadow: 0px 6px 6px 0px; }
   .price-card:last-child {
@@ -37,8 +40,8 @@
     z-index: 1;
     display: flex;
     justify-content: center;
-    margin-top: -682px;
-    margin-left: 275px;
+    margin-top: -680px;
+    margin-left: 292px;
     transform: rotate(-45deg);
     writing-mode: vertical-lr;
     border-left: 25px solid #dc3f45;
@@ -79,7 +82,7 @@
     font-size: 15px;
     font-weight: 300;
     line-height: 18px;
-    margin: 40px 26.5px 22px 26px; }
+    margin: 40px 26px 22px 26px; }
   .price-card__image {
     width: 15px;
     height: 13px;

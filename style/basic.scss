@@ -4,6 +4,8 @@
     width: 380px;
     height: 770px;
     background-color: rgba(51, 66, 71, 1);
+    padding: 0;
+    margin: 0;
     margin-right: 18px;
     box-shadow: 0px 6px 6px 0px;
     &:last-child{
@@ -26,8 +28,8 @@
         z-index: 1;
         display: flex;
         justify-content: center;
-        margin-top: -682px;
-        margin-left: 275px;
+        margin-top: -680px;
+        margin-left: 292px;
         transform: rotate(-45deg);
         writing-mode: vertical-lr;
         border-left: 25px solid rgb(220, 63, 69);
@@ -75,7 +77,7 @@
             font-size: 15px;
             font-weight: 300;
             line-height: 18px;
-            margin: 40px 26.5px 22px 26px;
+            margin: 40px 26px 22px 26px;
         }
 
         &__image {
