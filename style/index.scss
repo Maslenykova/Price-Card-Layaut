@@ -10,7 +10,10 @@
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat';
-    padding: 130px 115px 132px 115px;
+    
+    &__content{
+        margin: 115px 130px 115px 132px ;
+    }
 }
 
 @import "basic.scss";
