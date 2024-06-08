@@ -5,7 +5,7 @@
   display: flex;
   background-color: #141b1c;
   width: 1440px;
-  height: 1000px;
+  height: auto;
   font-family: 'Montserrat';
   margin: 0; }
   .cards__content {
@@ -83,22 +83,24 @@
   .price-card__image {
     width: 15px;
     height: 13px;
-    margin: 18px 22px 19px 22px;
+    margin-right: 22px;
+    margin-left: 22px;
     padding: 0; }
   .price-card__option-list {
-    display: flex;
-    align-items: center;
-    max-width: 380px;
-    height: 50px;
+    margin: 0;
+    padding: 0;
     color: white;
     font-size: 15px;
-    font-weight: 300;
-    margin: 0;
-    text-align: center;
-    padding-top: 16px;
-    padding-bottom: 16px; }
-    .price-card__option-list:nth-child(odd) {
-      background-color: #2a3438; }
+    font-weight: 300; }
+    .price-card__option-list_items {
+      padding: 0;
+      list-style-type: none;
+      margin: 0;
+      padding-top: 16px;
+      width: 380px;
+      height: 50px; }
+      .price-card__option-list_items:nth-child(odd) {
+        background-color: #2a3438; }
   .price-card__order-btn {
     display: flex;
     justify-content: center;
