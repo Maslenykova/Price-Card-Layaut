@@ -11,7 +11,6 @@
   .cards__content {
     margin: 115px 132px 115px 130px;
     display: flex;
-    align-items: center;
     justify-content: center; }
 
 .price-card {
@@ -26,7 +25,7 @@
   box-shadow: 0px 6px 6px 0px; }
   .price-card:last-child {
     margin-right: 0; }
-  .price-card__name {
+  .price-card__title {
     position: relative;
     margin: 0;
     text-align: center;
@@ -35,12 +34,19 @@
     font-size: 35px;
     line-height: 43px;
     color: #FFFFFF; }
+    .price-card__title_description {
+      margin: 0;
+      color: white;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center; }
   .price-card__status {
     position: absolute;
     z-index: 1;
     display: flex;
     justify-content: center;
-    margin-top: -680px;
+    margin-top: -30px;
     margin-left: 292px;
     transform: rotate(-45deg);
     writing-mode: vertical-lr;
@@ -55,13 +61,6 @@
     font-weight: 700;
     position: absolute;
     right: 5px; }
-  .price-card__description {
-    margin: 0;
-    color: white;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center; }
   .price-card__price {
     display: flex;
     align-items: center;
@@ -88,7 +87,7 @@
     height: 13px;
     margin: 18px 22px 19px 22px;
     padding: 0; }
-  .price-card__fitures {
+  .price-card__option-list {
     display: flex;
     align-items: center;
     max-width: 380px;
@@ -100,9 +99,9 @@
     text-align: center;
     padding-top: 16px;
     padding-bottom: 16px; }
-    .price-card__fitures:nth-child(odd) {
+    .price-card__option-list:nth-child(odd) {
       background-color: #2a3438; }
-  .price-card__button {
+  .price-card__order-btn {
     display: flex;
     justify-content: center;
     align-items: center;

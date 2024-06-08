@@ -12,7 +12,7 @@
         margin-right: 0;
     }
 
-    &__name {
+    &__title {
         position: relative;
         margin: 0;
         text-align: center;
@@ -21,6 +21,15 @@
         font-size: 35px;
         line-height: 43px;
         color: #FFFFFF;
+
+        &_description {
+            margin: 0;
+            color: rgba(255, 255, 255, 1);
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+        }
     }
 
     &__status {
@@ -28,7 +37,7 @@
         z-index: 1;
         display: flex;
         justify-content: center;
-        margin-top: -680px;
+        margin-top: -30px;
         margin-left: 292px;
         transform: rotate(-45deg);
         writing-mode: vertical-lr;
@@ -46,14 +55,6 @@
             right: 5px;
         }
     
-        &__description {
-            margin: 0;
-            color: rgba(255, 255, 255, 1);
-            font-weight: 300;
-            font-size: 20px;
-            line-height: 24px;
-            text-align: center;
-        }
 
         &__price {
             display: flex;
@@ -87,7 +88,7 @@
             padding: 0;
         }
 
-        &__fitures {
+        &__option-list {
             display: flex;
             align-items: center;
             max-width: 380px;
@@ -105,7 +106,7 @@
         }
         }
 
-        &__button {
+        &__order-btn {
             display: flex;
             justify-content: center;
             align-items: center;
