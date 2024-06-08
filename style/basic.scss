@@ -79,13 +79,23 @@
         &__image {
             width: 15px;
             height: 13px;
-            margin-right: 13px;
+            margin: 18px 22px 19px 22px;
+            padding: 0;
         }
 
         &__fitures {
             display: flex;
-            width: 380px;
-            margin-top: 18px;
+            align-items: center;
+            max-width: 380px;
+            height: 50px;
+            margin: 0;
+            text-align: center;
+            padding-top: 16px;
+            padding-bottom: 16px;
+
+            &:nth-child(odd){
+                background-color: rgba(42, 52, 56, 1);
+        }
         }
 
         &__button {

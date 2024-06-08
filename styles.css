@@ -82,11 +82,19 @@
   .price-card__image {
     width: 15px;
     height: 13px;
-    margin-right: 13px; }
+    margin: 18px 22px 19px 22px;
+    padding: 0; }
   .price-card__fitures {
     display: flex;
-    width: 380px;
-    margin-top: 18px; }
+    align-items: center;
+    max-width: 380px;
+    height: 50px;
+    margin: 0;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px; }
+    .price-card__fitures:nth-child(odd) {
+      background-color: #2a3438; }
   .price-card__button {
     display: flex;
     justify-content: center;
