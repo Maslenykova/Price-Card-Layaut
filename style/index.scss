@@ -9,11 +9,8 @@
     height: auto;
     font-family: 'Montserrat';
     margin: 0;
-    
-    &__content{
-        margin: 115px 132px 115px 130px ;
-        display: flex;
-    }
+    padding: 115px 132px 115px 130px ;
+   
 }
 
 @import "basic.scss";

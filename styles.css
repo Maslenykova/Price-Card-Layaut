@@ -7,10 +7,8 @@
   width: 1440px;
   height: auto;
   font-family: 'Montserrat';
-  margin: 0; }
-  .cards__content {
-    margin: 115px 132px 115px 130px;
-    display: flex; }
+  margin: 0;
+  padding: 115px 132px 115px 130px; }
 
 .price-card {
   display: flex;
@@ -44,8 +42,8 @@
     z-index: 1;
     display: flex;
     justify-content: center;
-    margin-top: -28.5px;
-    margin-left: 722px;
+    margin-top: -28px;
+    margin-left: 323px;
     transform: rotate(-45deg);
     writing-mode: vertical-lr;
     border-left: 25px solid #dc3f45;
@@ -115,6 +113,9 @@
     font-weight: 400;
     line-height: 17px;
     color: white; }
+
+.second-card {
+  position: relative; }
 
 .green-button, .basic-price {
   background-color: #5bb189; }
