@@ -6,9 +6,10 @@
   justify-content: center;
   background-color: #141b1c;
   width: 1440px;
-  height: 1000px;
+  max-height: 1000px;
   font-family: 'Montserrat';
-  padding: 115px 132px 115px 130px; }
+  padding: 115px 132px 115px 130px;
+  margin: 0; }
 
 .price-card {
   display: flex;
@@ -43,8 +44,8 @@
     z-index: 1;
     display: flex;
     justify-content: center;
-    margin-top: -28px;
-    margin-left: 323px;
+    left: 323px;
+    bottom: 650px;
     transform: rotate(-45deg);
     writing-mode: vertical-lr;
     border-left: 25px solid #dc3f45;

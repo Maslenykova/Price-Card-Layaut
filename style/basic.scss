@@ -38,8 +38,8 @@
         z-index: 1;
         display: flex;
         justify-content: center;
-        margin-top: -28px;
-        margin-left: 323px;
+        left: 323px;
+        bottom: 650px;
         transform: rotate(-45deg);
         writing-mode: vertical-lr;
         border-left: 25px solid rgb(220, 63, 69);
@@ -51,6 +51,7 @@
 
     &__status-text {
         
+    
         color: rgb(255, 255, 255);
         font-size: 14px;
         font-weight: 700;
