@@ -3,11 +3,12 @@
 
 .cards {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #141b1c;
   width: 1440px;
   height: auto;
   font-family: 'Montserrat';
-  margin: auto;
   padding: 115px 132px 115px 130px; }
 
 .price-card {
