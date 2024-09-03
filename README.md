@@ -1,4 +1,4 @@
-# Layout Sample Project
+# Price Card Layout 
 [Site link](https://maslenykova.github.io/Price-Card-Layaut/)
 
 Layout supports desktop versions
