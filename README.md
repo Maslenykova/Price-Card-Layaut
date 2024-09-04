@@ -1,5 +1,5 @@
 # Price Card Layout 
-[Site link](https://maslenykova.github.io/Price-Card-Layaut/)
+[Site link](https://maslenykova.github.io/price-cards-layout/)
 
 Layout supports desktop versions
 
