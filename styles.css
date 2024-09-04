@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   width: 380px;
-  height: 100vh;
+  height: 770px;
   background-color: #334247;
   margin: 0;
   padding: 0;
@@ -41,7 +41,7 @@
     display: flex;
     justify-content: center;
     left: 85%;
-    bottom: 83vh;
+    bottom: 650px;
     transform: rotate(-45deg);
     writing-mode: vertical-lr;
     border-left: 25px solid #dc3f45;
