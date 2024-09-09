@@ -4,14 +4,14 @@
 
 .cards {
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     gap: 18px;
-    height: 100%;
     background-color: #141b1c;
     font-family: 'Montserrat';
-    
-   
 }
+
+
 
 @import "basic.scss";
