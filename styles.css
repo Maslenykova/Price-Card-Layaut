@@ -45,10 +45,10 @@
     transform: rotate(-45deg);
     writing-mode: vertical-lr;
     border-left: 25px solid #dc3f45;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
     width: 25px;
-    height: 147px; }
+    height: 150px; }
   .price-card__status-text {
     color: white;
     font-size: 14px;
