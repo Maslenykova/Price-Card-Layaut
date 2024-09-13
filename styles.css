@@ -28,13 +28,13 @@
     font-size: 35px;
     line-height: 43px;
     color: #FFFFFF; }
-    .price-card__title_description {
-      margin: 0;
-      color: white;
-      font-weight: 300;
-      font-size: 20px;
-      line-height: 24px;
-      text-align: center; }
+  .price-card__subtitle {
+    margin: 0;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center; }
   .price-card__status {
     position: absolute;
     z-index: 1;
@@ -66,7 +66,7 @@
     font-weight: 700;
     line-height: 67px;
     color: white; }
-  .price-card__price-description {
+  .price-card__description {
     display: block;
     width: 327px;
     height: 36px;
@@ -76,7 +76,7 @@
     font-weight: 300;
     line-height: 18px;
     margin: 40px 26px 40px 26px; }
-  .price-card__image {
+  .price-card__icon {
     width: 15px;
     height: 13px;
     margin-right: 22px;
@@ -88,15 +88,15 @@
     color: white;
     font-size: 15px;
     font-weight: 300; }
-    .price-card__options-list_items {
-      padding: 0;
-      list-style-type: none;
-      margin: 0;
-      padding-top: 16px;
-      width: 380px;
-      height: 50px; }
-      .price-card__options-list_items:nth-child(odd) {
-        background-color: #2a3438; }
+  .price-card__options {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 16px;
+    width: 380px;
+    height: 50px; }
+    .price-card__options:nth-child(odd) {
+      background-color: #2a3438; }
   .price-card__order-btn {
     display: flex;
     justify-content: center;
@@ -116,13 +116,13 @@
 .second-card {
   position: relative; }
 
-.green-button, .basic-price {
+.price-card__order-btn_green, .price-card__price_green {
   background-color: #5bb189; }
 
-.blue-button, .business-price {
+.price-card__order-btn_blue, .price-card__price_blue {
   background-color: #3a6ba5; }
 
-.orange-button, .website-price {
+.price-card__order-btn_orange, .price-card__price_orange {
   background-color: #ec632a; }
 
 /*# sourceMappingURL=styles.css.map */
