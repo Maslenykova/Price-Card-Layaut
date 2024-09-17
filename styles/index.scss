@@ -1,17 +1,15 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .cards {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    gap: 18px;
-    background-color: #141b1c;
-    font-family: 'Montserrat';
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  background-color: #141b1c;
+  font-family: 'Montserrat';
 }
 
-
-
-@import "basic.scss";
+@import 'priceCard.scss';
